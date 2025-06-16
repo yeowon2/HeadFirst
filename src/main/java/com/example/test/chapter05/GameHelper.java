@@ -1,5 +1,6 @@
 package com.example.test.chapter05;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GameHelper {
@@ -8,5 +9,9 @@ public class GameHelper {
         Scanner scanner = new Scanner(System.in);
 
         return scanner.nextInt();
+    }
+
+    public ArrayList<String> placeStartup(int i) {
+        return null;
     }
 }

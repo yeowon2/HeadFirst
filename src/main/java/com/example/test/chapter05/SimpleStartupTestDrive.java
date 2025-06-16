@@ -1,12 +1,14 @@
 package com.example.test.chapter05;
 
+import java.util.ArrayList;
+
 public class SimpleStartupTestDrive {
     public static void main(String[] args) {
-        // SimpleStartup 클래스의 객체를 만듦
-        SimpleStartup dot = new SimpleStartup();
+        // Startup 클래스의 객체를 만듦
+        Startup dot = new Startup();
 
         // 스타트업 위치를 나타내기 위한 int 배열을 만듦 (일곱 개의 연속된 정수 가운데 세 개)
-        int[] locations = {2, 3, 4};
+        ArrayList<String> locations = new ArrayList<>();
         dot.setLocationCells(locations);
 
         // 사용자가 추측한 위치 역할을 할 가짜 값을 만듦
