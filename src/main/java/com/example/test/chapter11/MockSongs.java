@@ -30,4 +30,30 @@ public class MockSongs {
 
         return songs;
     }
+
+    public static List<SongV3> getSongsV3() {
+        List<SongV3> songs = new ArrayList<>();
+
+        songs.add(new SongV3("Good Luck! Babe", "Charlie", 100));
+        songs.add(new SongV3("Ukon", "Justin Bieber", 80));
+        songs.add(new SongV3("party 4 u", "Charlie XCX", 110));
+        songs.add(new SongV3("Alonica", "Lany", 65));
+        songs.add(new SongV3("blue", "yung kai", 75));
+        songs.add(new SongV3("2+2=4", "minoe", 91));
+
+        return songs;
+    }
+
+    public static List<SongV4> getSongsV4() {
+        List<SongV4> songs = new ArrayList<>();
+
+        songs.add(new SongV4("Good Luck! Babe", "Charlie", 100));
+        songs.add(new SongV4("Ukon", "Justin Bieber", 80));
+        songs.add(new SongV4("party 4 u", "Charlie XCX", 110));
+        songs.add(new SongV4("Alonica", "Lany", 65));
+        songs.add(new SongV4("blue", "yung kai", 75));
+        songs.add(new SongV4("2+2=4", "minoe", 91));
+
+        return songs;
+    }
 }
